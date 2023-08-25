@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug TypeScript",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+        "args": ["${relativeFile}"],
+        "sourceMaps": true,
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  
